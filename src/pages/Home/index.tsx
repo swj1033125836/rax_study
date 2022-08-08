@@ -8,6 +8,7 @@ import Welcome from '@/components/study_component/HelloWord';
 import Welcome1 from '@/components/study_component/HelloWord1';
 import Counter from '@/components/study_component/Counter/Counter';
 import Welcomes from "@/components/study_component/HelloWords";
+import CounterByEffect from "@/components/study_component/Counter/CounterByEffect";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Welcome1 name={789} />
       <Counter />
       <Welcomes />
+      <CounterByEffect />
     </View>
   );
 }
