@@ -5,6 +5,7 @@ import Text from 'rax-text';
 import styles from './index.module.css';
 import Logo from '../../components/Logo';
 import Welcome from '@/components/study_component/HelloWord';
+import Welcome1 from '@/components/study_component/HelloWord1';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Text className={styles.homeInfo}>More information about Rax</Text>
       <Text className={styles.homeInfo}>Visit https://rax.js.org</Text>
       <Welcome name={123} />
+      <Welcome1 name={789} />
     </View>
   );
 }
