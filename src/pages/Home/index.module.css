@@ -1,16 +1,16 @@
 .homeContainer {
   align-items: center;
-  margin-top: 200rpx;
+  margin-top: 200px;
 }
 
 .homeTitle {
-  font-size: 45rpx;
+  font-size: 45px;
   font-weight: bold;
-  margin: 20rpx 0;
+  margin: 20px 0;
 }
 
 .homeInfo {
-  font-size: 36rpx;
-  margin: 8rpx 0;
+  font-size: 36px;
+  margin: 8px 0;
   color: #555;
 }
